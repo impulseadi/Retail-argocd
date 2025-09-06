@@ -4,7 +4,7 @@ metadata:
   name: userprofile-deployment
   namespace: adi
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: userprofile
